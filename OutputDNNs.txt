@@ -1,0 +1,9 @@
+nrphone
+nrhotspot
+5gcbroadband
+ims
+xrinteractive
+xrinteractive 
+onstarwifi
+onstarihu
+nrfwbb

@@ -1,0 +1,10 @@
+outputdir: "/var/lib/kafka/data/ASPEN/"
+aspenpath: "/tmp/delivery/eom-aspen-sink-httpfile-connector1/"
+retrydir: "/tmp/delivery/eom-aspen-sink-httpfile-connector1/retry/"
+processingdir: "/tmp/delivery/eom-aspen-sink-httpfile-connector1/processing"
+donedir: "/tmp/delivery/eom-aspen-sink-httpfile-connector1/done"
+errordir: "/tmp/delivery/eom-aspen-sink-httpfile-connector1/error"
+to : 'shivali.sharma@amdocs.com'
+from : 'DL-ATTCCSOPS@att.com'
+subject : 'Aspen_File_Status'
+htmlfile: "aspen_status.html"

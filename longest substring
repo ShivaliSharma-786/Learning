@@ -1,0 +1,19 @@
+def longest_substring(s):
+    start = 0
+    max_len = 0
+    char_dict = {}
+
+    for i in range(len(s)):
+        if s[i] in char_dict and start <= char_dict[s[i]]:
+            start = char_dict[s[i]] + 1
+        else:
+            max_len = max(max_len, i - start + 1)
+        
+        char_dict[s[i]] = i
+
+    return max_len
+
+# Test the function
+input_string = "abcabcbb"  # Update with your own input string
+result = longest_substring(input_string)
+print("Length of the longest substring without repeating characters:", result)
